@@ -1,5 +1,5 @@
-DROP users;
-DROP subscriptions;
+DROP TABLE IF EXISTS users;
+DROP TABLE IF EXISTS subscriptions;
 
 CREATE TABLE users(
     id INT NOT NULL,
